@@ -1,0 +1,46 @@
+.pie {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  clip: rect(0px, 225px, 450px, 0px);
+}
+.hold {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  clip: rect(0px, 450px, 450px, 225px);
+}
+
+#pieSlice1 .pie {
+  background-color: yellow;
+  transform:rotate(90deg);
+}
+
+#pieSlice2 {
+  transform: rotate(90deg);
+}
+
+#pieSlice2 .pie {
+  background-color: green;
+  transform: rotate(90deg); 
+}
+
+#pieSlice3 {
+  transform: rotate(180deg);
+}
+
+#pieSlice3 .pie {
+  background-color: blue;
+  transform: rotate(90deg);
+}
+
+#pieSlice4 {
+  transform: rotate(270deg);
+}
+
+#pieSlice4 .pie {
+  background-color: red;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,39 @@
+.masthead {
+  background-color: black;
+  overflow: hidden;
+}
+
+.masthead a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.masthead input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.search-container button {
+  float: center;
+  padding: 6px 10px;
+  background: red;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.masthead-right {
+  float: right
+}
